@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.rbglobalschools.in/" target="_blank">RBGS</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#school_achievement">School Achievements</a></li>
+                <li><a href="#whats_new">What's New</a></li>
+                <li><a href="#alumni">Our Alumni</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="announcement">
+            <marquee id="marqeeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Enqiry Us At http://www.rbglobalschools.in/enquiry.html ***
+            </marquee>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/b1E1hPQPS-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="facilities">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">School Facilities</h2>
+        </div>
+        <div class="container">
+            <center>
+                <div class="row">
+                    <div class="travel-maindiv">
+                        <img class="img-responsive" src="download.jpg">
+                        <h4 class="text-capitalize"><kbd>Basket Ball Court</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-capitalize">Was Built In 2011</h5>
+                        <p class="text-muted">Once We Played Basket Ball And All Of My Best Friends Were On My Team</p>
+                    </div>
+                    <div class="travel-maindiv">
+                        <img class="img-responsive" src="download%20(2).jpg">
+                        <h4 class="text-capitalize"><kbd>Playground</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-capitalize">Was Built In 2011</h5>
+                        <p class="text-muted">We Play Most Of The Times Here</p>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </section>
+    <section id="school_achievements">
+        <br>
+        <br>
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">School Achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#kho-kho">
+            Inter-School Kho Kho<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="kho-kho" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="download%20(8).jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                <h5 class="text-success text-left text-capitalize">Won 3rd Place In Inter-School Kho Kho</h5>
+                <p>We Lost Our First Match But In The Second Match We Won And Came Third Place</p>
+            </div>
+        </div>
+    </section>
+    <section id="whats_new">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 school_li">
+                <h4>New Canteen</h4>
+                <img src="download%20(canteen)" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Adding More Tables For More Students,Also Making Food Chart More Organized And Cleaning Canteen Everyday</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 school_li">
+                <h4>Upgrading Bathrooms</h4>
+                <img src="download%20(1).jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Adding More Bathroom Stalls And Fixing Pipe Lines</p>
+        </ul>
+
+    </section>
+    <section id="alumni">
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-capitalize">Our Alumni</h2>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#sundar_pichai">
+                <img src="download%20(3).jpg" class="img-responsive">
+                <hr>
+                <p class="text-primary">Sundar Pichai</p>
+            </div>
+            <div class="modal fade" id="sundar_pichai">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">Sundar Pichai</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="download%20(3).jpg" class="img-responsive img_modal">
+                            <p class="p_modal">Pichai Sundararajan (born June 10, 1972), known as Sundar Pichai, is an Indian-American business executive.He is the chief executive officer (CEO) of Alphabet Inc. and its subsidiary Google.
+                                <br>
+                                <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" target="_blank"><b>MORE ABOUT HIM</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#venu_srinivasan">
+                <img src="download%20(4).jpg" class="img-responsive">
+                <hr>
+                <p class="text-primary">Venu Srinivasan</p>
+            </div>
+            <div class="modal fade" id="venu_srinivasan">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">Venu Srinivasan</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="download%20(4).jpg" class="img-responsive img_modal">
+                            <p class="p_modal">Venu Srinivasan is an Indian industrialist, who is the Chairman of TVS Group which include Sundaram-Clayton Group and its subsidiary TVS Motor Company, India's third largest maker of two-wheelers.
+                                <br>
+                                <a href="https://en.wikipedia.org/wiki/Venu_Srinivasan" target="_blank"><b>MORE ABOUT HIM</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2>Contact Us</h2>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9525355243854!2d80.18889221413463!3d12.910772219704958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c028c77f5db%3A0x1b5f1b1a1a72db77!2sRavindra%20Bharathi%20Global%20School!5e0!3m2!1sen!2sin!4v1607358780372!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div id="details">
+                <img src="download%20(1).png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Princple Name:</h3>
+                <h4>Kamala Sumathy</h4>
+                <div class="contact_1">
+                    <a href="mailto:info@rbglobalschools.in?subject=HI">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info@rbglobalschools.in</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;#</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;086080 48881</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body></html>

@@ -1,0 +1,66 @@
+#marqeeStyle {
+    background-color: blue;
+    color: white;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie-text span {
+    color: #ff7700;
+}
+
+#map {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.modal-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel-maindiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+}
